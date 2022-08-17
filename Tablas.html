@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+</head>
+<body>
+    <h2>Tablas en HTML</h2>
+    <h3>Tabla Básica</h3>
+    <table border ="1">
+        <tr>
+            <th>Curso</th>
+            <th>Horario</th>
+            <th>Profesor</th>
+
+        </tr>
+        <tr>
+            <td>com 22517</td>
+            <td>16:30 a 18:00</td>
+            <td>Juan Pablo</td>
+        </tr>
+        <tr>
+            <td>com 22518</td>
+            <td>18:00 a 19:30</td>
+            <td>Juan Pablo J</td>
+        </tr>
+    </table>
+    <h3>Atributos rowspan y colspan </h3>
+    <table border ="1">
+        <tr>
+            <th colspan="3">Cursos</th>
+        </tr>
+        <tr>
+            <th>Curso</th>
+            <th>Horario</th>
+            <th>Profesor</th>
+
+        </tr>
+        <tr>
+            <td>com 22517</td>
+            <td>16:30 a 18:00</td>
+            <td rowspan="3">Juan Pablo</td>
+        </tr>
+        <tr>
+            <td>com 22518</td>
+            <td>18:00 a 19:30</td>
+        </tr>
+        <tr>
+            <td>com 22519</td>
+            <td>20:00 a 21:30</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
