@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+
+<body>
+    <h1>Formularios en HTML</h1>
+    <form action="">
+        <fieldset>
+            <legend>Datos Personales</legend>
+            <label for="nombres">Nombres: </label>
+            <input type="text" id="nombre" name="nombre" size="20" required>
+
+            <label for="apellidos">Apellidos: </label>
+            <input type="text" size="20" maxlength="15" required>
+
+            <label for="dni">DNI: </label>
+            <input type="number" maxlength="8" required>
+
+            <label for="contraseña">Contraseña: </label>
+            <input type="password" maxlength="4" size="6">
+            <br><br>
+
+            <label for="correo">E-mail: </label>
+            <input type="email">
+
+            <label for="fechadenacimiento">Fecha de nacimiento: </label>
+            <input type="date">
+
+            <label for="adjunto">Adjunte su foto: </label>
+            <input type="file">
+            <br><br>
+
+            <label for="color">Color favorito: </label>
+            <input type="color">}
+
+            <label for="hijos">Cantidad de hijos (0 a 10): </label>
+            <input type="number" max="10" min="0" size="3">
+
+        </fieldset>
+        <br><br><br>
+        <fieldset>
+            <legend>Datos para la inscripción</legend>
+            <label for="select">Seleccione un turno</label>
+            <select>
+                <option value="1">mañana</option>
+                <option value="2">tarde</option>
+                <option value="3">noche</option>
+            </select>
+            <br><br><br>
+            <label for="op">Conocimientos previos</label>
+            <input type="checkbox" name="op" value="1"> HTML
+            <input type="checkbox" name="op" value="2"> CSS
+            <input type="checkbox" name="op" value="3"> JS
+            <br><br><br>
+
+            <label for="rb">Estoy interesado en </label>
+            <input type="radio" name="rb" value="1"> Full stack Python
+            <input type="radio" name="rb" value="2"> Full stack Java
+            <input type="radio" name="rb" value="3"> Full stack PHP
+            <input type="radio" name="rb" value="4"> Diseño UX/UI
+        </fieldset>
+        <br><br>
+
+        <label for="comentarios">Escriba su comentario</label>
+        <textarea cols="30" rows="10" placeholder="Escriba aqui..."></textarea>
+        <br><br><br>
+
+        <input type="submit">
+        <input type="text">
+
+
+    </form>
+
+</body>
+
+</html>
